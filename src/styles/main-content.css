@@ -1,0 +1,78 @@
+/* HEADER */
+.main-container {
+  height: 100vh;
+  margin-left: 350px;
+}
+
+.header__navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  margin: 10px;
+  border-radius: 10px;
+  background: var(--bg-top-bar);
+}
+
+.navigation {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.arrow-left {
+  margin-right: 1.25rem;
+}
+
+.arrow-left,
+.arrow-right {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 2rem;
+  height: 2rem;
+  background: var(--bg-icon);
+  border-radius: 50%;
+  border: none;
+  cursor: pointer;
+}
+
+.header__login {
+  display: flex;
+  align-items: center;
+}
+
+.header__login .subscribe {
+  color: var(--text-sub);
+  font-family: var(--font-dm-sans);
+  font-size: 16px;
+  font-weight: 700;
+  background-color: transparent;
+  margin-right: 32px;
+}
+
+.header__login .login {
+  width: 100px;
+  height: 48px;
+  color: var(--text-base-dark);
+  font-family: var(--font-dm-sans);
+  font-size: 16px;
+  font-weight: 700;
+  border-radius: 40px;
+}
+
+.user-name {
+  color: var(--main-font-color);
+  font-family: var(--font-dm-sans);
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: -0.025rem;
+}
+
+.user::after {
+  content: url("./assets/icon/caret-down.png");
+  margin-left: 1rem;
+}
+/*FIM HEADER */

@@ -1,24 +1,66 @@
 body {
-    margin: 0;
+  background: #000000;
 }
 
-#main {
-    width: 100%;
+.sidebar {
+  position: fixed;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  width: 300px;
+  background-color: #000000;
+  padding: 24px;
 }
 
-.menu {
-    width: 30%;
-    
+.sidebar .logo img {
+  width: 130px;
 }
 
-.logo {
-    background-color: black;
-    width: 50%;
-    height: auto;
+.sidebar .navigation ul {
+  list-style: none;
+  margin-top: 20px;
 }
 
-.view-container {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr); /* 3 colunas com largura igual */
-    grid-gap: 20px; /* Espaçamento entre as colunas */
-  }
+.sidebar .navigation ul li {
+  padding: 10px 0px;
+}
+
+.sidebar .navigation ul li a {
+  color: #b3b3b3;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 18px;
+}
+
+.sidebar .navigation ul li .fa {
+  font-size: 20px;
+  margin-right: 10px;
+}
+
+.sidebar .navigation ul li a:hover {
+  color: #ffffff;
+}
+
+.sidebar .policies {
+  position: absolute;
+  bottom: 100px;
+}
+
+.sidebar .policies ul {
+  list-style: none;
+}
+
+.sidebar .policies ul li {
+  padding-bottom: 5px;
+}
+
+.sidebar .policies ul li a {
+  color: #b3b3b3;
+  font-weight: 500;
+  text-decoration: none;
+  font-size: 10px;
+}
+
+.sidebar .policies ul li a:hover {
+  text-decoration: underline;
+}
