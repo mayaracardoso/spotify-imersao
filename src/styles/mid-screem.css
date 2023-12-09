@@ -1,0 +1,61 @@
+body {
+  background: var(--main-gradient);
+  height: 100vh;
+}
+
+/* HEADER */
+.header__navigation {
+  display: flex;
+  justify-content: space-between;
+  margin: 1.2rem 2.5rem 0;
+}
+
+.navigation {
+  display: flex;
+  justify-content: space-around;
+}
+
+.arrow-left {
+  margin-right: 1.25rem;
+}
+
+.arrow-left,
+.arrow-right {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 2rem;
+  height: 2rem;
+  background: var(--background-icon);
+  border-radius: 50%;
+}
+
+.user {
+  display: flex;
+  align-items: center;
+  width: 9.2rem;
+  height: 2.5rem;
+  background: var(--background-icon);
+  border-radius: 2.5rem;
+}
+.user-icon img {
+  width: 2.3rem;
+  height: 2.3rem;
+  border-radius: 50%;
+  margin-right: 0.5rem;
+}
+
+.user-name {
+  color: var(--main-font-color);
+  font-family: var(--font-dm-sans);
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: -0.025rem;
+}
+
+.user::after {
+  content: url("./assets/icon/caret-down.png");
+  margin-left: 1rem;
+}

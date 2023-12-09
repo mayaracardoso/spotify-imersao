@@ -1,110 +1,23 @@
-/* Figma Styles of your File */
 :root {
-    /* Colors */
-    --primary-01: #1db954;
-    --secondary-secondary-01: #000000;
-    --secondary-secondary-02: #393939;
-    --secondary-secondary-03: #191414;
-    --secondary-secondary-04: #ffffff;
-    --neutral-neutral-01: #b3b3b3;
-    --neutral-neutral-02: #777777;
-    --neutral-neutral-03: #535353;
-    --other-cyan-400: #3dd5f3;
-    --other-blue-400: #3d8bfd;
-    --other-purple-400: #8c68cd;
-    --other-pink-400: #de5c9d;
-    --other-red-400: #e35d6a;
-    --other-orange-400: #fd9843;
-    --other-yellow-400: #ffcd39;
-    --other-teal-400: #4dd4ac;
-    --gradient-gradient-01: linear-gradient(
-      90deg,
-      rgba(61, 213, 243, 1) 0%,
-      rgba(61, 139, 253, 1) 100%
-    );
-    --gradient-gradient-02: linear-gradient(
-      90deg,
-      rgba(61, 139, 253, 1) 0%,
-      rgba(140, 104, 205, 1) 100%
-    );
-    --gradient-gradient-03: linear-gradient(
-      90deg,
-      rgba(140, 104, 205, 1) 0%,
-      rgba(222, 92, 157, 1) 100%
-    );
-    --gradient-gradient-04: linear-gradient(
-      90deg,
-      rgba(222, 92, 157, 1) 0%,
-      rgba(227, 93, 106, 1) 100%
-    );
-    --gradient-gradient-05: linear-gradient(
-      90deg,
-      rgba(227, 93, 106, 1) 0%,
-      rgba(253, 152, 67, 1) 100%
-    );
-    --gradient-gradient-06: linear-gradient(
-      90deg,
-      rgba(255, 205, 57, 1) 0%,
-      rgba(77, 212, 172, 1) 100%
-    );
-    --gradient-gradient-07: linear-gradient(
-      90deg,
-      rgba(29, 185, 84, 1) 0%,
-      rgba(77, 212, 172, 1) 100%
-    );
-  
-    /* Fonts */
-    --header-h-1-font-family: CircularStd-Black, sans-serif;
-    --header-h-1-font-size: 80px;
-    --header-h-1-line-height: 96px;
-    --header-h-1-font-weight: 900;
-    --header-h-1-font-style: normal;
-    --header-h-2-font-family: CircularStd-Bold, sans-serif;
-    --header-h-2-font-size: 32px;
-    --header-h-2-line-height: 40px;
-    --header-h-2-font-weight: 700;
-    --header-h-2-font-style: normal;
-    --header-h-3-font-family: CircularStd-Bold, sans-serif;
-    --header-h-3-font-size: 20px;
-    --header-h-3-line-height: 24px;
-    --header-h-3-font-weight: 700;
-    --header-h-3-font-style: normal;
-    --header-h-4-font-family: CircularStd-Bold, sans-serif;
-    --header-h-4-font-size: 14px;
-    --header-h-4-line-height: 16px;
-    --header-h-4-font-weight: 700;
-    --header-h-4-font-style: normal;
-    --header-h-5-font-family: CircularStd-Bold, sans-serif;
-    --header-h-5-font-size: 12px;
-    --header-h-5-line-height: 12px;
-    --header-h-5-font-weight: 700;
-    --header-h-5-font-style: normal;
-    --header-h-6-font-family: CircularStd-Bold, sans-serif;
-    --header-h-6-font-size: 10px;
-    --header-h-6-line-height: 12px;
-    --header-h-6-font-weight: 700;
-    --header-h-6-font-style: normal;
-    --body-b-1-font-family: CircularStd-Book, sans-serif;
-    --body-b-1-font-size: 14px;
-    --body-b-1-line-height: 16px;
-    --body-b-1-font-weight: 400;
-    --body-b-1-font-style: normal;
-    --body-b-2-font-family: CircularStd-Book, sans-serif;
-    --body-b-2-font-size: 12px;
-    --body-b-2-line-height: 14px;
-    --body-b-2-font-weight: 400;
-    --body-b-2-font-style: normal;
-    --body-b-3-font-family: CircularStd-Book, sans-serif;
-    --body-b-3-font-size: 10px;
-    --body-b-3-line-height: 12px;
-    --body-b-3-font-weight: 400;
-    --body-b-3-font-style: normal;
-    --body-b-4-font-family: CircularStd-Book, sans-serif;
-    --body-b-4-font-size: 10px;
-    --body-b-4-line-height: 12px;
-    --body-b-4-font-weight: 400;
-    --body-b-4-font-style: normal;
-  
-    /* Effects */
-  }
-  
+  /* Colors */
+  --main-font-color: #fff;
+  --playlist-box-01: #303030;
+  --playlist-box-02: #181818;
+  --background-icon: #131313;
+  --main-gradient: linear-gradient(
+    180deg,
+    rgba(34, 34, 34, 1) 0%,
+    rgba(31, 31, 31, 1) 11.644843220710754%,
+    rgba(23, 23, 23, 1) 25.65864324569702%,
+    rgba(22, 22, 22, 1) 32.941123843193054%,
+    rgba(21, 21, 21, 1) 35.97584068775177%,
+    rgba(19, 19, 19, 1) 44.889646768569946%,
+    rgba(18, 18, 18, 1) 55.216121673583984%,
+    rgba(18, 18, 18, 1) 75.33735036849976%,
+    rgba(18, 18, 18, 1) 85.4543685913086%,
+    rgba(18, 18, 18, 0) 100%
+  );
+
+  /* Fonts */
+  --font-dm-sans: "DM Sans", sans-serif;
+}
