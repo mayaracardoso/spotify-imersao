@@ -1,0 +1,14 @@
+:root {
+  /* Colors */
+  --text-base-dark: #000
+  --text-base-light: #fff;
+  --text-sub: #a7a7a7;
+  --playlist-box-01: #303030;
+  --playlist-box-02: #181818;
+  --bg-icon: #131313;
+  --bg-top-bar: #61616142;
+  
+
+  /* Fonts */
+  --font-dm-sans: "DM Sans", sans-serif;
+}

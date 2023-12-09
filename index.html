@@ -312,35 +312,166 @@
       name="viewport"
       content="width=device-width, initial-scale=1, maximum-scale=1"
     />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Alice&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,700&family=Dancing+Script:wght@400;500;600;700&family=Oranienbaum&family=Roboto:wght@100;300;400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="src/styles/reset.css" />
+    <link rel="stylesheet" href="src/styles/vars.css" />
+    <link rel="stylesheet" href="src/styles/main-content.css" />
   </head>
+
   <body>
-    <div class="main">
-      <div class="container">
-        <div class="menu">
-          <nav class="nav-bar">
-            <div class="inicial">
-              <ul>
-                <li class="target">
-                  <a class="link-subtle" href="/intl-pt">
-                    <span
-                      class="Type__TypeElement-sc-goli3j-0 bkjCej"
-                      >Início</span>
-                  </a>
-                </li>
-                <li class="target">
-                  <a class="link-subtle" href="/intl-pt">
-                    <span
-                      class="Type__TypeElement-sc-goli3j-0 bkjCej"
-                      >Buscar</span>
-                  </a>
-                </li>
-              </ul>
-            </div>
-          </nav>
-        </div>
-        <div class="painel"></div>
+    <!-- PARTE MAY -->
+    <div class="sidebar">
+      <div class="logo">
+        <a href="">
+          <img src="./images/Spotify Logo.png" alt="Logo" />
+        </a>
+      </div>
+
+      <div class="navigation">
+        <ul>
+          <li>
+            <a href="">
+              <span class="fa fa-home"></span>
+              <span>Home</span>
+            </a>
+          </li>
+          <li>
+            <a href="">
+              <span class="fa fa-search"></span>
+              <span>Search</span>
+            </a>
+          </li>
+          <li>
+            <a href="">
+              <span class="fa fas fa-book"></span>
+              <span>Your Library</span>
+            </a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="navigation">
+        <ul>
+          <li>
+            <a href="">
+              <span class="fa fa-home"></span>
+              <span>Create Playlist</span>
+            </a>
+          </li>
+          <li>
+            <a href="">
+              <span class="fa fa-search"></span>
+              <span>Liked Songs</span>
+            </a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="policies">
+        <ul>
+          <li>
+            <a href="">Cookies</a>
+          </li>
+          <li>
+            <a href="">Privacy</a>
+          </li>
+        </ul>
       </div>
     </div>
+    <!-- FIM PARTE MAY -->
+
+    <!-- PARTE FE -->
+    <main>
+      <div class="main-container">
+        <nav class="header__navigation">
+          <section class="navigation">
+            <button class="arrow-left">
+              <img src="./src/assets/icons/small-left.png" alt="" />
+            </button>
+            <button class="arrow-right">
+              <img src="./src/assets/icons/small-right.png" alt="" />
+            </button>
+          </section>
+          <section class="header__login">
+            <button class="subscribe">Inscreva-se</button>
+            <button class="login">Entrar</button>
+          </section>
+        </nav>
+      </div>
+
+      <!-- REVISAR -->
+      <!-- <div class="spotify-playlists">
+        <h2>Spotify Playlists</h2>
+
+        <div class="list">
+          <div class="item">
+            <img src="./images/Today's Top Hits.jpg" />
+            <div class="play">
+              <span class="fa fa-play"></span>
+            </div>
+            <h4>Today's Top Hits</h4>
+            <p>Olivia Rodrigo is on top of the Hottest 50!</p>
+          </div>
+
+          <div class="item">
+            <img src="./images/RapCaviar.jpg" />
+            <div class="play">
+              <span class="fa fa-play"></span>
+            </div>
+            <h4>RapCaviar</h4>
+            <p>New Music from Cardi B, Megan Thee Stallion an...</p>
+          </div>
+
+          <div class="item">
+            <img src="./images/All Out 2010s.jpg" />
+            <div class="play">
+              <span class="fa fa-play"></span>
+            </div>
+            <h4>All out 2010s</h4>
+            <p>The biggest spmgs pf tje 2010s.</p>
+          </div>
+
+          <div class="item">
+            <img src="./images/Rock Classics.jpg" />
+            <div class="play">
+              <span class="fa fa-play"></span>
+            </div>
+            <h4>Rock Classics</h4>
+            <p>Rock Legends & epic songs that continue to...</p>
+          </div>
+
+          <div class="item">
+            <img src="./images/Chill Hits.jpg" />
+            <div class="play">
+              <span class="fa fa-play"></span>
+            </div>
+            <h4>Chill Hits</h4>
+            <p>Kick back to the best new and recent chill hits</p>
+          </div>
+
+          <div class="item">
+            <img src="./images/Viva Latino.jpg" />
+            <div class="play">
+              <span class="fa fa-play"></span>
+            </div>
+            <h4>Viva Latino</h4>
+            <p>Today's top Latin hits elevando nuestra...</p>
+          </div>
+
+          <div class="item">
+            <img src="./images/All Out 80s.jpg" />
+            <div class="play">
+              <span class="fa fa-play"></span>
+            </div>
+            <h4>All out 80s</h4>
+            <p>The biggest songs of the 1980s. Cover: Michael...</p>
+          </div>
+        </div>
+      </div> -->
+    </main>
   </body>
 </html>
