@@ -1,0 +1,110 @@
+/* Figma Styles of your File */
+:root {
+    /* Colors */
+    --primary-01: #1db954;
+    --secondary-secondary-01: #000000;
+    --secondary-secondary-02: #393939;
+    --secondary-secondary-03: #191414;
+    --secondary-secondary-04: #ffffff;
+    --neutral-neutral-01: #b3b3b3;
+    --neutral-neutral-02: #777777;
+    --neutral-neutral-03: #535353;
+    --other-cyan-400: #3dd5f3;
+    --other-blue-400: #3d8bfd;
+    --other-purple-400: #8c68cd;
+    --other-pink-400: #de5c9d;
+    --other-red-400: #e35d6a;
+    --other-orange-400: #fd9843;
+    --other-yellow-400: #ffcd39;
+    --other-teal-400: #4dd4ac;
+    --gradient-gradient-01: linear-gradient(
+      90deg,
+      rgba(61, 213, 243, 1) 0%,
+      rgba(61, 139, 253, 1) 100%
+    );
+    --gradient-gradient-02: linear-gradient(
+      90deg,
+      rgba(61, 139, 253, 1) 0%,
+      rgba(140, 104, 205, 1) 100%
+    );
+    --gradient-gradient-03: linear-gradient(
+      90deg,
+      rgba(140, 104, 205, 1) 0%,
+      rgba(222, 92, 157, 1) 100%
+    );
+    --gradient-gradient-04: linear-gradient(
+      90deg,
+      rgba(222, 92, 157, 1) 0%,
+      rgba(227, 93, 106, 1) 100%
+    );
+    --gradient-gradient-05: linear-gradient(
+      90deg,
+      rgba(227, 93, 106, 1) 0%,
+      rgba(253, 152, 67, 1) 100%
+    );
+    --gradient-gradient-06: linear-gradient(
+      90deg,
+      rgba(255, 205, 57, 1) 0%,
+      rgba(77, 212, 172, 1) 100%
+    );
+    --gradient-gradient-07: linear-gradient(
+      90deg,
+      rgba(29, 185, 84, 1) 0%,
+      rgba(77, 212, 172, 1) 100%
+    );
+  
+    /* Fonts */
+    --header-h-1-font-family: CircularStd-Black, sans-serif;
+    --header-h-1-font-size: 80px;
+    --header-h-1-line-height: 96px;
+    --header-h-1-font-weight: 900;
+    --header-h-1-font-style: normal;
+    --header-h-2-font-family: CircularStd-Bold, sans-serif;
+    --header-h-2-font-size: 32px;
+    --header-h-2-line-height: 40px;
+    --header-h-2-font-weight: 700;
+    --header-h-2-font-style: normal;
+    --header-h-3-font-family: CircularStd-Bold, sans-serif;
+    --header-h-3-font-size: 20px;
+    --header-h-3-line-height: 24px;
+    --header-h-3-font-weight: 700;
+    --header-h-3-font-style: normal;
+    --header-h-4-font-family: CircularStd-Bold, sans-serif;
+    --header-h-4-font-size: 14px;
+    --header-h-4-line-height: 16px;
+    --header-h-4-font-weight: 700;
+    --header-h-4-font-style: normal;
+    --header-h-5-font-family: CircularStd-Bold, sans-serif;
+    --header-h-5-font-size: 12px;
+    --header-h-5-line-height: 12px;
+    --header-h-5-font-weight: 700;
+    --header-h-5-font-style: normal;
+    --header-h-6-font-family: CircularStd-Bold, sans-serif;
+    --header-h-6-font-size: 10px;
+    --header-h-6-line-height: 12px;
+    --header-h-6-font-weight: 700;
+    --header-h-6-font-style: normal;
+    --body-b-1-font-family: CircularStd-Book, sans-serif;
+    --body-b-1-font-size: 14px;
+    --body-b-1-line-height: 16px;
+    --body-b-1-font-weight: 400;
+    --body-b-1-font-style: normal;
+    --body-b-2-font-family: CircularStd-Book, sans-serif;
+    --body-b-2-font-size: 12px;
+    --body-b-2-line-height: 14px;
+    --body-b-2-font-weight: 400;
+    --body-b-2-font-style: normal;
+    --body-b-3-font-family: CircularStd-Book, sans-serif;
+    --body-b-3-font-size: 10px;
+    --body-b-3-line-height: 12px;
+    --body-b-3-font-weight: 400;
+    --body-b-3-font-style: normal;
+    --body-b-4-font-family: CircularStd-Book, sans-serif;
+    --body-b-4-font-size: 10px;
+    --body-b-4-line-height: 12px;
+    --body-b-4-font-weight: 400;
+    --body-b-4-font-style: normal;
+  
+    /* Effects */
+  }
+  
