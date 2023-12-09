@@ -13,6 +13,7 @@ body {
 .navigation {
   display: flex;
   justify-content: space-around;
+  align-items: center;
 }
 
 .arrow-left {
@@ -34,13 +35,13 @@ body {
   display: flex;
   align-items: center;
   width: 9.2rem;
-  height: 2.5rem;
+  height: 2rem;
   background: var(--background-icon);
-  border-radius: 2.5rem;
+  border-radius: 2rem;
 }
 .user-icon img {
-  width: 2.3rem;
-  height: 2.3rem;
+  width: 2rem;
+  height: 2rem;
   border-radius: 50%;
   margin-right: 0.5rem;
 }
@@ -59,3 +60,4 @@ body {
   content: url("./assets/icon/caret-down.png");
   margin-left: 1rem;
 }
+/*FIM HEADER */
