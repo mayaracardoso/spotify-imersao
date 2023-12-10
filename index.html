@@ -89,91 +89,185 @@
       </div>
     </div>
 
-    <div class="main-container">
-      <div class="topbar">
-        <div class="prev-next-buttons">
-          <button type="button" class="fa fas fa-chevron-left"></button>
-          <button type="button" class="fa fas fa-chevron-right"></button>
-        </div>
+    <!-- PARTE FE -->
+    <main>
+      <div class="main-container">
+        <nav class="header__navigation">
+          <div class="navigation">
+            <button class="arrow-left">
+              <img src="./src/assets/icons/small-left.png" alt="" />
+            </button>
+            <button class="arrow-right">
+              <img src="./src/assets/icons/small-right.png" alt="" />
+            </button>
 
-        <div class="navbar">
-          <ul>
-            <li>
-              <a href="">Sign Up</a>
-            </li>
-          </ul>
-          <button type="button">Login</button>
+            <button class="header__search">
+              <img src="./src/assets/icons/search.png" alt="" />
+              <input
+                maxlength="800"
+                autocorrect="off"
+                autocapitalize="off"
+                spellcheck="false"
+                placeholder="O que você quer ouvir?"
+                data-testid="search-input"
+                data-encore-id="type"
+                value=""
+                style="color: rgb(0, 0, 0)"
+              />
+            </button>
+          </div>
+
+          <div class="header__login">
+            <button class="subscribe">Inscreva-se</button>
+            <button class="login">Entrar</button>
+          </div>
+        </nav>
+
+        <!-- PLAYLIST -->
+        <div class="playlist-container">
+          <div class="playlist">
+            <h1 id="greeting">Boa noite</h1>
+            <h2 class="session">Navegar por todas as seções</h2>
+          </div>
+
+          <!-- LIST ITEM 1 -->
+          <div class="offer__scroll-container">
+            <div class="offer__list">
+              <section class="offer__list-item">
+                <!-- CARD 1 -->
+                <a href="" class="cards">
+                  <div class="cards card1">
+                    <img src="./src/assets/playlist/1.jpeg" alt="" />
+                    <span>Boas festas</span>
+                  </div>
+                </a>
+
+                <!-- CARD 2 -->
+                <a href="" class="cards">
+                  <div class="cards card2">
+                    <img src="./src/assets/playlist/2.png" alt="" />
+                    <span>Feitos para você</span>
+                  </div>
+                </a>
+
+                <!-- CARD 3 -->
+                <a href="" class="cards">
+                  <div class="cards card3">
+                    <img src="./src/assets/playlist/3.jpeg" alt="" />
+                    <span>Lançamentos</span>
+                  </div>
+                </a>
+
+                <!-- CARD 4 -->
+                <a href="" class="cards">
+                  <div class="cards card4">
+                    <img src="./src/assets/playlist/4.jpeg" alt="" />
+                    <span>Creators</span>
+                  </div>
+                </a>
+
+                <!-- CARD 5 -->
+                <a href="" class="cards">
+                  <div class="cards card5">
+                    <img src="./src/assets/playlist/5.jpeg" alt="" />
+                    <span>Para treinar</span>
+                  </div>
+                </a>
+              </section>
+            </div>
+
+            <!-- LIST ITEM 2 -->
+            <div class="offer__list">
+              <section class="offer__list-item">
+                <!-- CARD 6 -->
+                <a href="" class="cards">
+                  <div class="cards card6">
+                    <img src="./src/assets/playlist/6.jpeg" alt="" />
+                    <span>Podcasts</span>
+                  </div>
+                </a>
+
+                <!-- CARD 7 -->
+                <a href="" class="cards">
+                  <div class="cards card7">
+                    <img src="./src/assets/playlist/7.jpeg" alt="" />
+                    <span>Sertanejo</span>
+                  </div>
+                </a>
+
+                <!-- CARD 8 -->
+                <a href="" class="cards">
+                  <div class="cards card8">
+                    <img src="./src/assets/playlist/8.jpeg" alt="" />
+                    <span>Samba e pagode</span>
+                  </div>
+                </a>
+
+                <!-- CARD 9 -->
+                <a href="" class="cards">
+                  <div class="cards card9">
+                    <img src="./src/assets/playlist/9.jpeg" alt="" />
+                    <span>Funk</span>
+                  </div>
+                </a>
+
+                <!-- CARD 10 -->
+                <a href="" class="cards">
+                  <div class="cards card10">
+                    <img src="./src/assets/playlist/10.jpeg" alt="" />
+                    <span>MPB</span>
+                  </div>
+                </a>
+              </section>
+            </div>
+
+            <!-- LIST ITEM 3 -->
+            <div class="offer__list">
+              <section class="offer__list-item">
+                <!-- CARD 11 -->
+                <a href="" class="cards">
+                  <div class="cards card11">
+                    <img src="./src/assets/playlist/11.jpeg" alt="" />
+                    <span>Rock</span>
+                  </div>
+                </a>
+
+                <!-- CARD 12 -->
+                <a href="" class="cards">
+                  <div class="cards card12">
+                    <img src="./src/assets/playlist/12.jpeg" alt="" />
+                    <span>Hip Hop</span>
+                  </div>
+                </a>
+
+                <!-- CARD 13 -->
+                <a href="" class="cards">
+                  <div class="cards card13">
+                    <img src="./src/assets/playlist/13.jpeg" alt="" />
+                    <span>Indie</span>
+                  </div>
+                </a>
+
+                <!-- CARD 14 -->
+                <a href="" class="cards">
+                  <div class="cards card14">
+                    <img src="./src/assets/playlist/14.jpeg" alt="" />
+                    <span>Relax</span>
+                  </div>
+                </a>
+
+                <!-- CARD 15 -->
+                <a href="" class="cards">
+                  <div class="cards card15">
+                    <img src="./src/assets/playlist/15.jpeg" alt="" />
+                    <span>Música Latina</span>
+                  </div>
+                </a>
+              </section>
+            </div>
+          </div>
         </div>
       </div>
-
-      <div class="spotify-playlists">
-        <h2>Playlists do Spotify</h2>
-
-        <div class="list">
-          <div class="item">
-            <img src="./images/Today's Top Hits.jpg" />
-            <div class="play">
-              <span class="fa fa-play"></span>
-            </div>
-            <h4>Today's Top Hits</h4>
-            <p>Olivia Rodrigo is on top of the Hottest 50!</p>
-          </div>
-
-          <div class="item">
-            <img src="./images/RapCaviar.jpg" />
-            <div class="play">
-              <span class="fa fa-play"></span>
-            </div>
-            <h4>RapCaviar</h4>
-            <p>New Music from Cardi B, Megan Thee Stallion an...</p>
-          </div>
-
-          <div class="item">
-            <img src="./images/All Out 2010s.jpg" />
-            <div class="play">
-              <span class="fa fa-play"></span>
-            </div>
-            <h4>All out 2010s</h4>
-            <p>The biggest spmgs pf tje 2010s.</p>
-          </div>
-
-          <div class="item">
-            <img src="./images/Rock Classics.jpg" />
-            <div class="play">
-              <span class="fa fa-play"></span>
-            </div>
-            <h4>Rock Classics</h4>
-            <p>Rock Legends & epic songs that continue to...</p>
-          </div>
-
-          <div class="item">
-            <img src="./images/Chill Hits.jpg" />
-            <div class="play">
-              <span class="fa fa-play"></span>
-            </div>
-            <h4>Chill Hits</h4>
-            <p>Kick back to the best new and recent chill hits</p>
-          </div>
-
-          <div class="item">
-            <img src="./images/Viva Latino.jpg" />
-            <div class="play">
-              <span class="fa fa-play"></span>
-            </div>
-            <h4>Viva Latino</h4>
-            <p>Today's top Latin hits elevando nuestra...</p>
-          </div>
-
-          <div class="item">
-            <img src="./images/All Out 80s.jpg" />
-            <div class="play">
-              <span class="fa fa-play"></span>
-            </div>
-            <h4>All out 80s</h4>
-            <p>The biggest songs of the 1980s. Cover: Michael...</p>
-          </div>
-        </div>
-      </div> -->
     </main>
   </body>
 </html>
