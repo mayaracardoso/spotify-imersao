@@ -2,17 +2,19 @@
 .main-container {
   max-width: 80vw;
   height: 100vh;
-  margin-left: 350px;
+  margin-left: 320px;
+  margin-right: 56px;
 }
 
 .header__navigation {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 1rem 2rem;
+  padding: 1rem;
   margin: 10px;
-  border-radius: 10px;
-  background: var(--bg-top-bar);
+  border-radius: 8px;
+  background-color: #121212;
+  /* padding: 12px; */
 }
 
 .header__navigation .navigation {
@@ -33,6 +35,7 @@
   width: 2rem;
   height: 2rem;
   background: var(--bg-icon);
+  background-color: rgba(0, 0, 0, 0.7);
   border-radius: 50%;
   border: none;
   cursor: pointer;
@@ -108,14 +111,14 @@
 /* PLAYLIST */
 .playlist-container {
   height: 72vh;
-  padding: 1rem 2rem;
+  padding-top: 1rem;
   margin: 10px;
   border-radius: 10px;
-  background: var(--bg-top-bar);
+  background-color: #121212;
 }
 
 .playlist {
-  margin-bottom: 24px;
+  margin: 24px;
 }
 
 .playlist #greeting {
@@ -133,8 +136,18 @@
 
 /* SCROLL */
 .offer__scroll-container {
-  max-height: 56vh;
+  max-height: 52vh;
+  margin: 24px;
   overflow-y: auto;
+}
+
+.offer__scroll-container::-webkit-scrollbar {
+  width: 1px;
+}
+
+/* Thumb */
+.offer__scroll-container::-webkit-scrollbar-thumb {
+  background-color: transparent;
 }
 /* FIM SCROLL */
 
