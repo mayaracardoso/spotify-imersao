@@ -1,0 +1,13 @@
+{
+    "artists": [
+      { "id": 1, "name": "Foo Fighters", "genre": "Rock" },
+      { "id": 2, "name": "Michael Jackson", "genre": "Pop" },
+      { "id": 3, "name": "Emicida", "genre": "Hip Hop" },
+      { "id": 4, "name": "Chitãozinho e Xororó", "genre": "Sertanejo" },
+      { "id": 5, "name": "Mc Coringa", "genre": "Funk" },
+      { "id": 6, "name": "Arlindo Cruz", "genre": "Samba" },
+      { "id": 7, "name": "Caetano Veloso", "genre": "MPB" },
+      { "id": 7, "name": "Fernanda Brum", "genre": "Gospel" }
+    ]
+  }
+  
