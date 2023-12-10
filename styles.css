@@ -343,7 +343,7 @@ section .section__playlist .section__playlist--create {
     border-color: #636363;
 }
 
-.preview {
+.disclaimer-premium {
     position: fixed;
     bottom: 0;
     left: 0;
@@ -354,7 +354,7 @@ section .section__playlist .section__playlist--create {
     justify-content: space-between;
 }
 
-.preview h6 {
+.disclaimer-premium .disclaimer-premium__title {
     color: #ffffff;
     text-transform: uppercase;
     font-weight: 400;
@@ -362,13 +362,13 @@ section .section__playlist .section__playlist--create {
     margin-bottom: 10px;
 }
 
-.preview p {
+.disclaimer-premium .disclaimer-premium__subtitle {
     color: #ffffff;
     font-size: 14px;
     font-weight: 500;
 }
 
-.preview button {
+.disclaimer-premium button {
     background-color: #ffffff;
     color: #000000;
     font-size: 16px;
