@@ -17,12 +17,14 @@ body {
     bottom: 0;
     width: 300px;
     background-color: #000000;
-    padding: 24px;
+    padding: 12px;
 }
 
 .sidebar .logo {
     background-color: #121212;
     display: flex;
+    border-radius: 8px;
+    padding: 16px 0 0 16px;
 }
 
 .sidebar .logo img {
@@ -38,7 +40,7 @@ body {
 .sidebar nav ul {
     list-style: none;
     margin-top: 20px;
-    padding: 8px 12px;
+    padding: 0px 20px 10px 20px;
 }
 
 .sidebar nav ul li {
@@ -48,45 +50,155 @@ body {
 .sidebar nav ul li a {
     color: #b3b3b3;
     text-decoration: none;
-    font-weight: 500;
-    font-size: 18px;
+    font-weight: 600;
+    font-size: 14px;
 }
 
 .sidebar nav ul li .fa {
     font-size: 20px;
     margin-right: 10px;
+    font-weight: 300;
 }
 
 .sidebar nav ul li a:hover {
     color: #ffffff;
 }
 
-.sidebar .policies {
-    position: absolute;
-    bottom: 100px;
+/* .options {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    min-height: 0;
+    border-radius: 8px;
+    background-color: #121212;
+}
+*/
+.library {
+    background-color: #121212;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    min-block-size: 40px;
+    padding: 4px 8px;
+    color: #b3b3b3;
+    font-weight: 600;
+    font-size: 14px;
+    margin-top: 10px;
+    flex-direction: column;
 }
 
-.sidebar .policies ul {
-    list-style: none;
+.library .library__button {
+    margin-right: 10px;
+    color: #b3b3b3;
+    background-color: transparent;
+    border: 0px;
+    font-size: 1rem;
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    text-decoration: none;
+    text-transform: none;
+    padding: 20px 10px;
+    display: flex;
 }
 
-.sidebar .policies ul li {
-    padding-bottom: 5px;
+.library .library__button .fa {
+    font-size: 20px;
+    margin-right: 10px;
+    font-weight: 300;
+    padding-right: 8px;
 }
 
-.sidebar .policies ul li a {
+.library__content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.library .library__content .fa-plus {
+   margin: 24px 10px;
+}
+
+section {
+    background-color: #242424;
+    align-items: flex-start;
+    border-radius: 8px;
+    gap: 20px;
+    display: flex;
+    justify-content: space-between;
+    min-block-size: 40px;
+    color: #b3b3b3;
+    font-weight: 600;
+    font-size: 14px;
+    margin: 8px 0;
+    padding: 16px 20px;
+}
+
+section .section__playlist {
+    display: flex;
+    flex-direction: column;
+}
+
+section .section__playlist .text {
+   padding-bottom: 14px;
+   color: #fff;
+}
+
+section .section__playlist .title {
+   font-weight: 700;
+}
+
+section .section__playlist .subtitle {
+    font-weight: 500;
+    font-size: 0.8rem;
+ }
+
+section .section__playlist .section__playlist--create {
+    background-color: #ffffff;
+    color: #000;
+    border-radius: 9999px;
+    display: flex;
+    font-size: 0.8rem;
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+    text-transform: none;
+    padding: 10px;
+    border: 0px;
+    width: 113px;
+    justify-content: center;
+    margin-top: 12px;
+}
+
+.sidebar .cookies {
+    margin: 25px 20px;
+}
+
+.sidebar .cookies a {
     color: #b3b3b3;
     font-weight: 500;
     text-decoration: none;
     font-size: 10px;
 }
 
-.sidebar .policies ul li a:hover {
+.sidebar .cookies a:hover {
     text-decoration: underline;
 }
 
+.languages .languages__button {
+    background-color: transparent;
+    border-radius: 9999px;
+    border: 1px solid #878787;
+    color: #fff;
+    cursor: pointer;
+    align-items: center;
+    padding: 8px;
+    width: 170px;
+    margin: 8px;
+    font-weight: bold;
+}
+
 .main-container {
-    margin-left: 350px;
+    margin-left: 324px;
     margin-bottom: 100px;
 }
 
@@ -183,8 +295,6 @@ body {
     background-color: #252525;
 }
 
-
-
 .spotify-playlists .list .item img {
     width: 100%;
     border-radius: 6px;
@@ -267,4 +377,8 @@ body {
     border: 0px;
     border-radius: 40px;
     cursor: pointer;
+}
+
+#artistList {
+    display: none;
 }

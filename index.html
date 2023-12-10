@@ -13,6 +13,7 @@
   </head>
 
   <body>
+    <ul id="artistList"></ul>
     <div class="sidebar">
       <nav class="sidebar__navigation">
         <div class="logo">
@@ -33,38 +34,38 @@
               <span>Buscar</span>
             </a>
           </li>
-          <!-- <li>
-            <a href="">
-              <span class="fa fas fa-book"></span>
-              <span>Your Library</span>
-            </a>
-          </li> -->
         </ul>
       </nav>
 
-      <nav>
-        <ul>
-          <li>
-            <a href="">
-              <span class="fa fa-home"></span>
-              <span>Create Playlist</span>
-            </a>
-          </li>
-          <li>
-            <a href="">
-              <span class="fa fa-search"></span>
-              <span>Liked Songs</span>
-            </a>
-          </li>
-        </ul>
-      </nav>
+      <div class="library">
+        <div class="library__content">
+          <button class="library__button">
+            <span class="fa fas fa-book"></span>
+            <span>Sua biblioteca</span>
+          </button>
+          <span class="fa fa-plus"></span>
+        </div>
 
-      <div class="policies">
-        <ul>
-          <li>
-            <a href="">Cookies</a>
-          </li>
-        </ul>
+        <section>
+          <div class="section__playlist">
+            <span class="text title">Crie sua primeira playlist</span>
+            <span class="text subtitle">É fácil, vamos te ajudar.</span>
+            <button class="section__playlist--create">
+              <span>Criar playlist</span>
+            </button>
+          </div>
+        </section>
+
+        <div class="cookies">
+          <a href="">Cookies</a>
+        </div>
+
+        <div class="languages">
+          <button class="languages__button">
+            <span class="fa fa-globe"></span>
+            <span>Portugês do Brasil</span>
+          </button>
+        </div>
       </div>
     </div>
 
@@ -286,14 +287,14 @@
 
     <div class="preview">
       <div class="text">
-        <h6>Preview of Spotify</h6>
+        <h6>Testar o Premium de graça</h6>
         <p>
-          Sign up to get unlimited songs and podcasts with occasional ads. No
-          credit card needed.
+          Inscreva-se para curtir música ilimitada e podcasts só com alguns
+          anúncios. Não precisa de cartão de crédito.
         </p>
       </div>
       <div class="button">
-        <button type="button">Sign up free</button>
+        <button type="button">Inscreva-se grátis</button>
       </div>
     </div>
 
@@ -301,5 +302,6 @@
       src="https://kit.fontawesome.com/ef9a692198.js"
       crossorigin="anonymous"
     ></script>
+    <script src="script.js" type="text/javascript"></script>
   </body>
 </html>
