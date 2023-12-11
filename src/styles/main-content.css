@@ -71,6 +71,9 @@
   color: #fff !important;
   text-overflow: ellipsis;
   outline: none;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
 }
 
 .header__login .subscribe {
