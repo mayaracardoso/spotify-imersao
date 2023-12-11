@@ -67,7 +67,7 @@
     background: transparent;
     border: none;
     padding: 0 6.25rem 0 0.75rem;
-    color: #fff !important;
+    color: #fff;
     text-overflow: ellipsis;
     outline: none;
   }
