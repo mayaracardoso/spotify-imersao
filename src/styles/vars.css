@@ -6,6 +6,8 @@
 
   --bg-icon: #131313;
   --bg-top-bar: #61616142;
+  --grid-gap: 24px;
+  --column-count: 5;
 
   /* Colors Cards */
   --card1: rgb(0, 100, 80);

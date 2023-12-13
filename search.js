@@ -1,33 +1,34 @@
+const resultsList = document.getElementById("resultsList");
+const playlistContainer = document.getElementById("result-playlists");
+
 function requestApi(searchTerm) {
   fetch(`http://localhost:3000/artists?name_like=${searchTerm}`)
     .then((response) => response.json())
     .then((results) => displayResults(results));
 }
 
-function displayResults(results) {
-  results.forEach(function (result) {
-    hidePlaylists();
-    var div = document.createElement("div");
-    div.textContent = result.name;
+function displayResults() {
+  hidePlaylists();
 
-    resultsList.appendChild(div);
-  });
+  resultsList.classList.remove("hidden");
 }
 
 function hidePlaylists() {
-  var playlistContainer = document.getElementById("result-playlists");
-  playlistContainer.style.display = "none";
+  playlistContainer.classList.add("hidden");
 }
 
 document.addEventListener("DOMContentLoaded", function () {
-  var searchInput = document.getElementById("search-input");
-  var resultsList = document.getElementById("resultsList");
+  const resultsList = document.getElementById("resultsList");
+  const searchInput = document.getElementById("search-input");
+  const playlistContainer = document.getElementById("result-playlists");
 
   searchInput.addEventListener("input", function () {
-    resultsList.innerHTML = "";
-
-    var searchTerm = searchInput.value.toLowerCase();
-
+    const searchTerm = searchInput.value.toLowerCase();
+    if (searchTerm === "") {
+      resultsList.classList.add("hidden");
+      playlistContainer.classList.remove("hidden");
+      return;
+    }
     requestApi(searchTerm);
   });
 });

@@ -235,3 +235,71 @@
   width: 107px;
   transform: rotate(25deg) translate(18%, -2%);
 }
+
+.artist {
+  --column-count: 5;
+  --grid-gap: 24px;
+  --min-container-width: 372px;
+}
+
+.hidden {
+  display: none;
+}
+
+.grid-container {
+  grid-gap: var(--grid-gap);
+  display: grid;
+  grid-template-columns: repeat(var(--column-count), minmax(0, 1fr));
+  min-width: var(--min-container-width);
+}
+
+.artist-search {
+  height: 100%;
+}
+
+.artist-card {
+  background: #181818;
+  border-radius: 8px;
+  -ms-flex: 1;
+  flex: 1;
+  isolation: isolate;
+  padding: 16px;
+  position: relative;
+  transition: background-color 0.3s ease;
+  width: 100%;
+}
+
+.card-img {
+  /* background-color: var(--card-color,#333);
+    border-radius: 6px;
+    box-shadow: 0 8px 24px rgba(0,0,0,.5); */
+  padding-bottom: 100%;
+  position: relative;
+  width: 100%;
+}
+
+.card-content {
+  pointer-events: none;
+  position: relative;
+}
+
+.artist-img {
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  border-radius: 50%;
+}
+
+.card-text {
+  box-sizing: border-box;
+  margin-block: 0px;
+  font-size: 1rem;
+  font-weight: 700;
+  padding-block-end: 4px;
+  color: var(--text-base, #000000);
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
