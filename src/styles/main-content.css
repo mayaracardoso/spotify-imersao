@@ -293,13 +293,57 @@
 }
 
 .card-text {
+  display: flex;
+  flex-direction: column;
+  color: #fff;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  min-height: 62px;
+}
+
+.card-text a {
+  display: inline-block;
+  max-width: 100%;
+  vertical-align: middle;
+}
+
+.artist-name {
   box-sizing: border-box;
   margin-block: 0px;
   font-size: 1rem;
   font-weight: 700;
-  padding-block-end: 4px;
-  color: var(--text-base, #000000);
-  overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap;
+  padding-block-end: 8px;
+}
+
+.artist-categorie {
+  color: #6a6a6a;
+  font-weight: 400;
+  font-size: 0.875rem;
+}
+
+.play {
+  position: relative;
+}
+
+.play .fa-play {
+  position: absolute;
+  right: 10px;
+  top: 120px;
+  padding: 18px;
+  background-color: #1db954;
+  border-radius: 100%;
+  font-size: 14px;
+  opacity: 0;
+  transition: all ease 0.4s;
+}
+
+.artist-card:hover .play .fa-play {
+  opacity: 1;
+  transform: translateY(-20px);
+}
+
+.play .fa-play:hover {
+  padding: 20px;
+  cursor: pointer;
 }
