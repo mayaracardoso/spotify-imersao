@@ -2,7 +2,6 @@
     position: fixed;
     left: 0;
     top: 0;
-    bottom: 0;
     width: 300px;
     background-color: #000000;
     padding: 12px;
@@ -186,7 +185,9 @@
     display: flex;
     justify-content: space-between;
 }
-
+.disclaimer-premium .text {
+   flex-shrink: 0;
+}
 .disclaimer-premium .disclaimer-premium__title {
     color: #ffffff;
     text-transform: uppercase;
@@ -210,6 +211,7 @@
     border: 0px;
     border-radius: 40px;
     cursor: pointer;
+    flex-shrink: 0;
 }
 
 #artistList {
