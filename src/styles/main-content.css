@@ -148,19 +148,24 @@
   width: 1px;
 }
 
-/* Thumb */
 .offer__scroll-container::-webkit-scrollbar-thumb {
   background-color: transparent;
 }
 /* FIM SCROLL */
 
 .offer__list-item {
-  display: grid;
+  /* display: grid;
   justify-items: center;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
   grid-gap: 1rem;
   gap: 1rem;
-  margin-bottom: 1rem;
+  margin-bottom: 1rem; */
+
+  /* CODIGO COM JS CALCULANDO OS CARDS POR COLUNA */
+  display: grid;
+  gap: 1rem;
+  grid-gap: 2rem; 
+  margin: 0 auto;
 }
 
 .cards {

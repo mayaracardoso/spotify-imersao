@@ -3,10 +3,9 @@
     display: none !important;
   }
 
-  /* PLAYLIST */
-  .offer__list-item {
+  /* .offer__list-item {
     grid-template-columns: 1fr 1fr !important;
-  }
+  } */
 }
 
 @media screen and (min-width: 911px) and (max-width: 1140px) {
@@ -14,8 +13,7 @@
     display: none !important;
   }
 
-  /* PLAYLIST */
-  .offer__list-item {
+  /* .offer__list-item {
     grid-template-columns: 1fr 1fr 1fr !important;
-  }
+  } */
 }
