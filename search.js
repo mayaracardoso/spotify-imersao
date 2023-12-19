@@ -9,8 +9,16 @@ function requestApi(searchTerm) {
 
 function displayResults() {
   hidePlaylists();
+  const artistImage = document.getElementById('artist-img');
+  const artistName = document.getElementById('artist-name');
 
+  results.forEach(element => {
+    artistImage.src = element.urlImg;
+    artistName.innerText = element.name;
+  });
   resultsList.classList.remove("hidden");
+ 
+ 
 }
 
 function hidePlaylists() {

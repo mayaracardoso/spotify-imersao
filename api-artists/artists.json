@@ -7,7 +7,7 @@
       { "id": 5, "name": "Mc Coringa", "genre": "Funk", "urlImg": "https://i.scdn.co/image/ab67616d00001e02fe8f6dd361ad0f12b88c7f56" },
       { "id": 6, "name": "Arlindo Cruz", "genre": "Samba", "urlImg": "https://i.scdn.co/image/ab67616100005174181873f93056642d7b340839" },
       { "id": 7, "name": "Caetano Veloso", "genre": "MPB", "urlImg": "https://i.scdn.co/image/ab67616100005174e98de50f36cf1aa4bf047757" },
-      { "id": 7, "name": "Fernanda Brum", "genre": "Gospel", "urlImg": "https://i.scdn.co/image/ab67616100005174971e1eb5295735a3a259c7c2" }
+      { "id": 8, "name": "Fernanda Brum", "genre": "Gospel", "urlImg": "https://i.scdn.co/image/ab67616100005174971e1eb5295735a3a259c7c2" }
     ]
   }
   
