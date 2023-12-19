@@ -7,7 +7,7 @@ function requestApi(searchTerm) {
     .then((results) => displayResults(results));
 }
 
-function displayResults() {
+function displayResults(results) {
   hidePlaylists();
   const artistImage = document.getElementById('artist-img');
   const artistName = document.getElementById('artist-name');
@@ -17,7 +17,6 @@ function displayResults() {
     artistName.innerText = element.name;
   });
   resultsList.classList.remove("hidden");
- 
  
 }
 

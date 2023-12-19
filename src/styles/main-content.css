@@ -258,10 +258,6 @@
   min-width: var(--min-container-width);
 }
 
-.artist-search {
-  height: 100%;
-}
-
 .artist-card {
   background: #181818;
   border-radius: 8px;
@@ -274,18 +270,15 @@
   width: 100%;
 }
 
+.artist-card:hover {
+  background-color: #252525;
+}
+
 .card-img {
-  /* background-color: var(--card-color,#333);
-    border-radius: 6px;
-    box-shadow: 0 8px 24px rgba(0,0,0,.5); */
   padding-bottom: 100%;
   position: relative;
   width: 100%;
-}
-
-.card-content {
-  pointer-events: none;
-  position: relative;
+  margin-bottom: 16px;
 }
 
 .artist-img {
@@ -351,4 +344,8 @@
 .play .fa-play:hover {
   padding: 20px;
   cursor: pointer;
+}
+
+#resultsList {
+  padding: 20px 40px;
 }
