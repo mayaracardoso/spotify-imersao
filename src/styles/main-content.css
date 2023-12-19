@@ -113,7 +113,7 @@
 
 /* PLAYLIST */
 .playlist-container {
-  height: 72vh;
+  height: 68vh;
   padding-top: 1rem;
   margin: 10px;
   border-radius: 10px;
@@ -139,7 +139,7 @@
 
 /* SCROLL */
 .offer__scroll-container {
-  max-height: 52vh;
+  max-height: 43vh;
   margin: 24px;
   overflow-y: auto;
 }
@@ -164,7 +164,7 @@
   /* CODIGO COM JS CALCULANDO OS CARDS POR COLUNA */
   display: grid;
   gap: 1rem;
-  grid-gap: 2rem; 
+  grid-gap: 2rem;
   margin: 0 auto;
 }
 
