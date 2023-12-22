@@ -2,6 +2,7 @@
   .header__search {
     /* display: none !important; */
     width: auto !important;
+    display: none;
   }
 
   /* .header__login .subscribe {
@@ -19,9 +20,34 @@
   .header__search {
     /* display: none !important; */
     width: auto !important;
+    display: none;
   }
 
   /* .offer__list-item {
     grid-template-columns: 1fr 1fr 1fr !important;
   } */
+}
+
+@media screen and (max-width: 375px) {
+  .playlist {
+    display: none;
+  }
+
+  .playlist-container {
+    width: 100%; /* Ocupa toda a largura disponível */
+    height: auto; /* Altura automática, ajusta conforme o conteúdo */
+  }
+
+  .sidebar {
+    width: 342px;
+  }
+
+  .offer__list-item {
+    grid-template-columns: 1fr;
+  }
+
+  .offer__scroll-container {
+    overflow-y: visible;
+  }
+
 }
