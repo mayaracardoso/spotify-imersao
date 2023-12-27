@@ -75,7 +75,6 @@ none: Um elemento com display: none é completamente removido do fluxo de layout
   width: 364px;
   height: 48px;
   margin-left: 8px;
-  border: transparent;
   background-color: #242424;
   border-radius: 500px;
   border: 1px solid transparent;
@@ -185,9 +184,9 @@ none: Um elemento com display: none é completamente removido do fluxo de layout
   margin-bottom: 16px; */
 
   /* CODIGO COM JS CALCULANDO OS CARDS POR COLUNA */
-  display: grid;
+  display: grid;  /* define o modelo de layout do elemento como uma grade */
   gap: 16px;
-  grid-gap: 32px;
+  grid-gap: 32px;  /* não é usado mais */
   margin: 0 auto;
 }
 
@@ -379,7 +378,7 @@ none: Um elemento com display: none é completamente removido do fluxo de layout
   cursor: pointer;
 }
 
-#resultsList {
+#result-artist {
   padding: 20px 40px;
 }
 /* FIM CARD ARTISTA */

@@ -1,34 +1,3 @@
-// document.addEventListener("DOMContentLoaded", function () {
-//   // URL da API fake de artistas do Spotify
-//   const apiUrl = "http://localhost:3000/artists";
-
-//   // Função para fazer um fetch na API
-//   function fetchArtists() {
-//     fetch(apiUrl)
-//       .then((response) => response.json())
-//       .then((data) => displayArtists(data))
-//       .catch((error) => console.error("Erro ao obter artistas:", error));
-//   }
-
-//   // Função para exibir os artistas na tela
-//   function displayArtists(artists) {
-//     const artistList = document.getElementById("artistList");
-
-//     // Limpar a lista antes de adicionar novos elementos
-//     artistList.innerHTML = "";
-
-//     // Iterar sobre os artistas e adicionar à lista
-//     artists.forEach((artist) => {
-//       const listItem = document.createElement("li");
-//       listItem.textContent = `${artist.name} - ${artist.genre}`;
-//       artistList.appendChild(listItem);
-//     });
-//   }
-
-//   // Chamar a função para obter e exibir os artistas
-//   fetchArtists();
-// });
-
 //BOM DIA | BOA TARDE | BOA NOITE
 
 // Obtém a referência do elemento com o ID "greeting"
@@ -59,14 +28,15 @@ greetingElement.textContent = greetingMessage;
 // GRID INTELIGENTE
 const container = document.querySelector(".offer__list-item");
 
-const observer = new ResizeObserver(() => {
-  const containerWidth = container.offsetWidth;
-  const numColumns = Math.floor(containerWidth / 200); // Ajuste conforme necessário
+const observer = new ResizeObserver(() => {  //mudanças no tamanho do elemento 
+  const containerWidth = container.offsetWidth; //largura total do elemento, incluindo largura do conteúdo, bordas e preenchimento.
+  const numColumns = Math.floor(containerWidth / 200); //número de colunas com base na largura do container
 
+  //largura mínima de 200px e máxima de 1fr (uma fração do espaço disponível).
   container.style.gridTemplateColumns = `repeat(${numColumns}, minmax(200px, 1fr))`;
 
   console.log({ container });
   console.log({ numColumns });
 });
-
+//observando a mudança do elemento
 observer.observe(container);
